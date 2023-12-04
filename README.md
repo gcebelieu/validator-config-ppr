@@ -4,7 +4,7 @@
 
 ## Description
 
-Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation du standard national de données dessertes pour le transport de bois dans le cadre du projet *Plan de Prévention des Risques*.
+Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation du [Géostandards Risques](https://github.com/cnigfr/Geostandards-Risques/blob/relecture-v0.1/standards/Geostandards-risques-commun/Document.md)
 
 ## Mises en garde
 
