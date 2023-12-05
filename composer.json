@@ -1,0 +1,15 @@
+{
+    "name": "ignf/validator-config-ppr",
+    "description": "Dépôt de gestion de la configuration de IGNF/validator pour la validation des Géostandards Risques.",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Clément Bouché",
+            "email": "clement.bouche@ign.fr"
+        },
+        {
+            "name": "Gilles Cébélieu",
+            "email": "gilles.cebelieu@ign.fr"
+        }
+    ]
+}
