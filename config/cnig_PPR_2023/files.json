@@ -10,6 +10,48 @@
 			"mandatory": "ERROR",
 			"tables": [
 				{
+					"name": "etatsprocedure",
+					"tableModel": "./types/etatsprocedure.json"
+				},
+				{
+					"name": "typealea",
+					"tableModel": "./types/typealea.json"
+				},
+				{
+					"name": "typeniveaualea",
+					"tableModel": "./types/typeniveaualea.json"
+				},
+				{
+					"name": "typeppr_codegaspar_enjeu_l",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_enjeu_l",
+					"tableModel": "./types/typeppr_codegaspar_enjeu_l.json"
+				},
+				{
+					"name": "typeppr_codegaspar_enjeu_p",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_enjeu_p",
+					"tableModel": "./types/typeppr_codegaspar_enjeu_p.json"
+				},
+				{
+					"name": "typeppr_codegaspar_originerisque_l",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_originerisque_l",
+					"tableModel": "./types/typeppr_codegaspar_originerisque_l.json"
+				},
+				{
+					"name": "typeppr_codegaspar_originerisque_p",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_originerisque_p",
+					"tableModel": "./types/typeppr_codegaspar_originerisque_p.json"
+				},
+				{
+					"name": "typeppr_codegaspar_originerisque_s",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_originerisque_s",
+					"tableModel": "./types/typeppr_codegaspar_originerisque_s.json"
+				},
+				{
+					"name": "typeppr_codegaspar_enjeu_s",
+					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_enjeu_s",
+					"tableModel": "./types/typeppr_codegaspar_enjeu_s.json"
+				},
+				{
 					"name": "typeppr_codegaspar_perimetre_s",
 					"path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_perimetre_s",
 					"tableModel": "./types/typeppr_codegaspar_perimetre_s.json"
