@@ -1,14 +1,13 @@
 {
-  "name": "typeppr_codegaspar_zonereglementaireurba_s",
+  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
   "description": "",
   "columns": [
     {
-      "name": "idzonereglementaire",
-      "description": "Identifiant unique",
+      "name": "idzonealea",
+      "description": "",
       "type": "String",
       "constraints": {
         "required": true,
-        "unique": true,
         "maxLength": 8
       }
     },
@@ -22,25 +21,16 @@
       }
     },
     {
-      "name": "codezonereglement",
+      "name": "typealea",
       "description": "",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 10
+        "maxLength": 3
       }
     },
     {
-      "name": "libellezonereglement",
-      "description": "",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "maxLength": 255
-      }
-    },
-    {
-      "name": "typereglement",
+      "name": "niveaualea",
       "description": "",
       "type": "String",
       "constraints": {
@@ -49,9 +39,20 @@
       }
     },
     {
-      "name": "obligationtravaux",
+      "name": "occurence",
       "description": "",
-      "type": "Boolean"
+      "type": "String",
+      "constraints": {
+        "maxLength": 15
+      }
+    },
+    {
+      "name": "description",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 255
+      }
     },
     {
       "name": "WKT",

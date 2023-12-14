@@ -1,5 +1,5 @@
 {
-  "name": "typeppr_codegaspar_zonereglementaireurba_s",
+  "name": "typeppr_codegaspar_zonereglementaireurba_p",
   "description": "",
   "columns": [
     {
@@ -57,7 +57,7 @@
       "name": "WKT",
       "title": "Géométrie",
       "description": "Geométrie associée",
-      "type": "MultiPolygon",
+      "type": "Point",
       "constraints": {
         "required": true
       }

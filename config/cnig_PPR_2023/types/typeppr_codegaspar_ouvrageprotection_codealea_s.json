@@ -1,46 +1,18 @@
 {
-  "name": "typeppr_codegaspar_zonereglementaireurba_s",
+  "name": "typeppr_codegaspar_ouvrageprotection_codealea_s",
   "description": "",
   "columns": [
     {
-      "name": "idzonereglementaire",
-      "description": "Identifiant unique",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "unique": true,
-        "maxLength": 8
-      }
-    },
-    {
-      "name": "codeprocedure",
+      "name": "idrefexterne",
       "description": "",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 16
+        "maxLength": 20
       }
     },
     {
-      "name": "codezonereglement",
-      "description": "",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "maxLength": 10
-      }
-    },
-    {
-      "name": "libellezonereglement",
-      "description": "",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "maxLength": 255
-      }
-    },
-    {
-      "name": "typereglement",
+      "name": "refexterne",
       "description": "",
       "type": "String",
       "constraints": {
@@ -49,9 +21,20 @@
       }
     },
     {
-      "name": "obligationtravaux",
+      "name": "refexterneautre",
       "description": "",
-      "type": "Boolean"
+      "type": "String",
+      "constraints": {
+        "maxLength": 50
+      }
+    },
+    {
+      "name": "typeouvrageprotection",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 255
+      }
     },
     {
       "name": "WKT",

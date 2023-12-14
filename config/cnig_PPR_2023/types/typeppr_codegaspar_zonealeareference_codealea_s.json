@@ -1,14 +1,14 @@
 {
-    "name": "typeppr_codegaspar_referenceinternet",
+    "name": "typeppr_codegaspar_zonealeareference_codealea_s",
     "description": "",
     "columns": [
       {
-        "name": "adresse",
+        "name": "idzonealea",
         "description": "",
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 255
+          "maxLength": 8
         }
       },
       {
@@ -21,15 +21,16 @@
         }
       },
       {
-        "name": "nomressource",
+        "name": "typealea",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 50
+          "required": true,
+          "maxLength": 3
         }
       },
       {
-        "name": "typereference",
+        "name": "niveaualea",
         "description": "",
         "type": "String",
         "constraints": {
@@ -38,11 +39,28 @@
         }
       },
       {
+        "name": "occurence",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15
+        }
+      },
+      {
         "name": "description",
         "description": "",
         "type": "String",
         "constraints": {
           "maxLength": 255
+        }
+      },
+      {
+        "name": "WKT",
+        "title": "Géométrie",
+        "description": "Geométrie associée",
+        "type": "MultiPolygon",
+        "constraints": {
+          "required": true
         }
       }
     ]

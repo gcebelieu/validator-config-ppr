@@ -1,0 +1,24 @@
+{
+  "name": "typeppr_codegaspar_revise",
+  "description": "",
+  "columns": [
+    {
+      "name": "codeprocrevisante",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 16
+      }
+    },
+    {
+      "name": "codeprocrevisee",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 16
+      }
+    }
+  ]
+}

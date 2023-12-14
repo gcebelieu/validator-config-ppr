@@ -1,15 +1,15 @@
 {
-  "name": "typeppr_codegaspar_zonereglementaireurba_s",
+  "name": "typeppr_codegaspar_zonereglementairefoncier_l",
   "description": "",
   "columns": [
     {
       "name": "idzonereglementaire",
       "description": "Identifiant unique",
-      "type": "String",
+      "type": "Integer",
       "constraints": {
         "required": true,
-        "unique": true,
-        "maxLength": 8
+        "maxLength": 8,
+        "unique": true
       }
     },
     {
@@ -49,15 +49,10 @@
       }
     },
     {
-      "name": "obligationtravaux",
-      "description": "",
-      "type": "Boolean"
-    },
-    {
       "name": "WKT",
       "title": "Géométrie",
       "description": "Geométrie associée",
-      "type": "MultiPolygon",
+      "type": "Linestring",
       "constraints": {
         "required": true
       }
