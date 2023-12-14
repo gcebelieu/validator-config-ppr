@@ -140,6 +140,30 @@
           "name": "typeppr_codegaspar_zonereglementaireurba_s",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonereglementaireurba_s",
           "tableModel": "./types/typeppr_codegaspar_zonereglementaireurba_s.json"
+        },
+        {
+          "name": "typeprocedure",
+          "tableModel": "./types/typeprocedure.json"
+        },
+        {
+          "name": "typereference",
+          "tableModel": "./types/typereference.json"
+        },
+        {
+          "name": "typerefexterneouvrage",
+          "tableModel": "./types/typerefexterneouvrage.json"
+        },
+        {
+          "name": "typereglementfoncier",
+          "tableModel": "./types/typereglementfoncier.json"
+        },
+        {
+          "name": "typereglementurba",
+          "tableModel": "./types/typereglementurba.json"
+        },
+        {
+          "name": "typesuralea",
+          "tableModel": "./types/typesuralea.json"
         }
       ]
     }
