@@ -83,11 +83,6 @@
           "tableModel": "./types/typeppr_codegaspar_ouvrageprotection_codealea_s.json"
         },
         {
-          "name": "typeppr_codegaspar_enjeu_s",
-          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_enjeu_s",
-          "tableModel": "./types/typeppr_codegaspar_enjeu_s.json"
-        },
-        {
           "name": "typeppr_codegaspar_perimetre_s",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_perimetre_s",
           "tableModel": "./types/typeppr_codegaspar_perimetre_s.json"
