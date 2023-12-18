@@ -41,7 +41,7 @@
       "name": "WKT",
       "title": "Géométrie",
       "description": "Geométrie associée",
-      "type": "Linestring",
+      "type": "LineString",
       "constraints": {
         "required": true
       }
