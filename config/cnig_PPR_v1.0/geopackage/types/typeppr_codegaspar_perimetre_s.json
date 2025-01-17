@@ -8,17 +8,17 @@
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 8,
+        "maxLength": 15,
         "unique": true
       }
     },
     {
       "name": "codeprocedure",
-      "description": "",
+      "description": "foreign key procedure",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 16
+        "maxLength": 18
       }
     },
     {

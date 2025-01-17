@@ -1,5 +1,5 @@
 {
-  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
+  "name": "typeppr_codegaspar_zonealeaexceptionnel_codealea_s",
   "description": "",
   "columns": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "codeprocedure",
-      "description": "fk table procedure",
+      "description": "fk table procédure",
       "type": "String",
       "constraints": {
         "required": true,

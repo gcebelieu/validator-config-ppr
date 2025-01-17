@@ -1,50 +1,47 @@
 {
-    "name": "typeppr_codegaspar_typevulnerabilite",
+    "name": "typeppr_codegaspar_zonemultialeatechno",
     "description": "",
     "columns": [
       {
-        "name": "idenjeu_s",
-        "description": "",
+        "name": "typealea",
+        "description": "pk 1/2",
         "type": "String",
         "constraints": {
+          "required": true,
+          "maxLength": 3
+        }
+      },
+      {
+        "name": "idzonealea",
+        "description": "pk 2/2",
+        "type": "String",
+        "constraints": {
+          "required": true,
           "maxLength": 15
         }
-      },
+      },      
       {
-        "name": "idenjeu_l",
+        "name": "niveaualea",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 2
         }
       },
       {
-        "name": "idenjeu_p",
+        "name": "occurrence",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 1
         }
       },
       {
-        "name": "nom",
+        "name": "intensite",
         "description": "",
         "type": "String",
         "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "description",
-        "description": "",
-        "type": "String"
-      },
-      {
-        "name": "valeur",
-        "description": "",
-        "type": "String",
-        "constraints": {
-          "required": true
+          "maxLength": 2
         }
       }
     ]

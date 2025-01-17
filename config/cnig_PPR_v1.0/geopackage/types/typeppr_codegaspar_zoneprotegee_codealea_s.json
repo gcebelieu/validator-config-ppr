@@ -1,10 +1,10 @@
 {
-  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
+  "name": "typeppr_codegaspar_zoneprotegee_codealea_s",
   "description": "",
   "columns": [
     {
-      "name": "idzonealea",
-      "description": "",
+      "name": "idzoneprotegee",
+      "description": "pk",
       "type": "String",
       "constraints": {
         "required": true,
@@ -13,7 +13,7 @@
     },
     {
       "name": "codeprocedure",
-      "description": "fk table procedure",
+      "description": "fk procedure",
       "type": "String",
       "constraints": {
         "required": true,
@@ -30,23 +30,43 @@
       }
     },
     {
-      "name": "niveaualea",
+      "name": "niveauprotection",
       "description": "",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "maxLength": 2
-      }
+      "type": "String"
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "String"
     },
     {
       "name": "description",
       "description": "",
       "type": "String"
+    },
+    {
+      "name": "idouvrageprotecteur_s",
+      "description": "fk ouvrageprotecteur_s",
+      "type": "String",
+      "constraints": {
+        "maxLength": 50
+      }
+    },
+    {
+      "name": "idouvrageprotecteur_l",
+      "description": "fk ouvrageprotecteur_l",
+      "type": "String",
+      "constraints": {
+        "maxLength": 50
+      }
+    },
+    {
+      "name": "idouvrageprotecteur_p",
+      "description": "fk ouvrageprotecteur_p",
+      "type": "String",
+      "constraints": {
+        "maxLength": 50
+      }
     },
     {
       "name": "WKT",

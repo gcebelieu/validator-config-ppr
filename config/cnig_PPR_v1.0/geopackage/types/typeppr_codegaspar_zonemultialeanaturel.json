@@ -1,0 +1,45 @@
+{
+    "name": "typeppr_codegaspar_zonemultialeanaturel",
+    "description": "",
+    "columns": [
+      {
+        "name": "typealea",
+        "description": "partie 1/2 de pk multiple",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 3
+        }
+      },
+      {
+        "name": "idzonealea",
+        "description": "partie 2/2 de pk multiple",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 15
+        }
+      },      
+      {
+        "name": "niveaualea",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 2
+        }
+      },
+      {
+        "name": "occurrence",
+        "description": "",
+        "type": "Integer"
+      },
+      {
+        "name": "intensite",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 2
+        }
+      }
+    ]
+  }

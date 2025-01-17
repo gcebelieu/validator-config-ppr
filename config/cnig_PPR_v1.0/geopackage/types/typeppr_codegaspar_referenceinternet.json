@@ -7,8 +7,7 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "required": true,
-          "maxLength": 255
+          "required": true
         }
       },
       {
@@ -17,16 +16,13 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 16
+          "maxLength": 18
         }
       },
       {
         "name": "nomressource",
         "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 50
-        }
+        "type": "String"
       },
       {
         "name": "typereference",
@@ -40,10 +36,7 @@
       {
         "name": "description",
         "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 255
-        }
+        "type": "String"
       }
     ]
   }

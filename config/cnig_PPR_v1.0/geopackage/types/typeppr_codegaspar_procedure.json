@@ -8,7 +8,7 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 16
+          "maxLength": 18
         }
       },
       {

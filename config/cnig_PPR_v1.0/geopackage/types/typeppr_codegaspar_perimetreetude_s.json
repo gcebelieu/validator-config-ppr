@@ -1,19 +1,20 @@
 {
-  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
+  "name": "typeppr_codegaspar_perimetreetude_s",
   "description": "",
   "columns": [
     {
-      "name": "idzonealea",
-      "description": "",
+      "name": "idperimetre",
+      "description": "Identifiant unique",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 15
+        "maxLength": 15,
+        "unique": true
       }
     },
     {
       "name": "codeprocedure",
-      "description": "fk table procedure",
+      "description": "foreign key procedure",
       "type": "String",
       "constraints": {
         "required": true,
@@ -21,38 +22,27 @@
       }
     },
     {
-      "name": "typealea",
+      "name": "etatprocedure",
       "description": "",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 3
+        "maxLength": 10
       }
     },
     {
-      "name": "niveaualea",
+      "name": "dateetat",
       "description": "",
-      "type": "String",
+      "type": "Date",
       "constraints": {
-        "required": true,
-        "maxLength": 2
+        "required": true
       }
-    },
-    {
-      "name": "occurrence",
-      "description": "",
-      "type": "Integer"
-    },
-    {
-      "name": "description",
-      "description": "",
-      "type": "String"
     },
     {
       "name": "WKT",
       "title": "Géométrie",
-      "description": "Géométrie associée",
-      "type": "Polygon",
+      "description": "Geométrie associée",
+      "type": "MultiPolygon",
       "constraints": {
         "required": true
       }

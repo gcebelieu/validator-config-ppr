@@ -1,9 +1,9 @@
 {
-    "name": "typeppr_codegaspar_zonedangerspecifique_codealea_s",
+    "name": "typeppr_codegaspar_zonealeatechnosynthese_s",
     "description": "",
     "columns": [
       {
-        "name": "idzonedanger",
+        "name": "idzonealea",
         "description": "pk",
         "type": "String",
         "constraints": {
@@ -13,7 +13,7 @@
       },
       {
         "name": "codeprocedure",
-        "description": "fk procedure",
+        "description": "fk table procedure",
         "type": "String",
         "constraints": {
           "required": true,
@@ -34,17 +34,15 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "required": true,
           "maxLength": 2
         }
       },
       {
-        "name": "typesuralea",
+        "name": "occurrence",
         "description": "",
         "type": "String",
         "constraints": {
-          "required": true,
-          "maxLength": 2
+          "maxLength": 1
         }
       },
       {
@@ -53,27 +51,11 @@
         "type": "String"
       },
       {
-        "name": "idouvrageprotecteur_s",
+        "name": "intensite",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 50
-        }
-      },
-      {
-        "name": "idouvrageprotecteur_l",
-        "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 50
-        }
-      },
-      {
-        "name": "idouvrageprotecteur_p",
-        "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 50
+          "maxLength": 2
         }
       },
       {

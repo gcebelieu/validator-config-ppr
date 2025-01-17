@@ -1,10 +1,10 @@
 {
-  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
+  "name": "typeppr_codegaspar_zonealeatechnoprojection_codealea_s",
   "description": "",
   "columns": [
     {
       "name": "idzonealea",
-      "description": "",
+      "description": "pk",
       "type": "String",
       "constraints": {
         "required": true,
@@ -34,14 +34,16 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
         "maxLength": 2
       }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "String",
+      "constraints": {
+        "maxLength": 1
+      }
     },
     {
       "name": "description",
@@ -49,9 +51,17 @@
       "type": "String"
     },
     {
+      "name": "intensite",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 2
+      }
+    },    {
       "name": "WKT",
       "title": "Géométrie",
-      "description": "Géométrie associée",
+      "description": "Geométrie associée",
       "type": "Polygon",
       "constraints": {
         "required": true

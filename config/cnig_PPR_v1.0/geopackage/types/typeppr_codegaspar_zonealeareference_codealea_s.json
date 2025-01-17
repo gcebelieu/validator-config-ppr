@@ -8,16 +8,16 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 8
+          "maxLength": 15
         }
       },
       {
         "name": "codeprocedure",
-        "description": "",
+        "description": "fk table procedure",
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 16
+          "maxLength": 18
         }
       },
       {
@@ -39,26 +39,20 @@
         }
       },
       {
-        "name": "occurence",
+        "name": "occurrence",
         "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 15
-        }
+        "type": "Integer"
       },
       {
         "name": "description",
         "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 255
-        }
+        "type": "String"
       },
       {
         "name": "WKT",
         "title": "Géométrie",
         "description": "Geométrie associée",
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "constraints": {
           "required": true
         }

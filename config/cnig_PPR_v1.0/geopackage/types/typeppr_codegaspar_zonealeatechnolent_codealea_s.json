@@ -1,14 +1,14 @@
 {
-  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
+  "name": "typeppr_codegaspar_zonealeatechnolent_codealea_s",
   "description": "",
   "columns": [
     {
       "name": "idzonealea",
-      "description": "",
+      "description": "pk",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 15
+        "maxLength": 8
       }
     },
     {
@@ -41,13 +41,26 @@
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "String",
+      "constraints": {
+        "maxLength": 1
+      }
+    },
+    {
+      "name": "intensite",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 2
+      }
     },
     {
       "name": "description",
       "description": "",
       "type": "String"
     },
+
     {
       "name": "WKT",
       "title": "Géométrie",

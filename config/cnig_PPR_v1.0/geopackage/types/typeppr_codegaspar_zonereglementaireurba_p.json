@@ -9,16 +9,16 @@
       "constraints": {
         "required": true,
         "unique": true,
-        "maxLength": 8
+        "maxLength": 15
       }
     },
     {
       "name": "codeprocedure",
-      "description": "",
+      "description": "fk procedure",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 16
+        "maxLength": 18
       }
     },
     {
@@ -26,8 +26,7 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
-        "maxLength": 10
+        "required": true
       }
     },
     {
@@ -35,8 +34,7 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
-        "maxLength": 255
+        "required": true
       }
     },
     {
@@ -49,7 +47,7 @@
       }
     },
     {
-      "name": "obligationtravaux",
+      "name": "existemesuresobligatoires",
       "description": "",
       "type": "Boolean"
     },

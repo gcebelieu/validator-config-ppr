@@ -1,14 +1,22 @@
 {
-  "name": "typeppr_codegaspar_ouvrageprotection_codealea_p",
+  "name": "typeppr_codegaspar_ouvrageprotecteur_codealea_p",
   "description": "",
   "columns": [
+    {
+      "name": "idouvrageprotecteur",
+      "description": "pk",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 15
+      }
+    },
     {
       "name": "idrefexterne",
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
-        "maxLength": 20
+        "maxLength": 50
       }
     },
     {
@@ -23,24 +31,31 @@
     {
       "name": "refexterneautre",
       "description": "",
-      "type": "String",
-      "constraints": {
-        "maxLength": 50
-      }
+      "type": "String"
     },
     {
-      "name": "typeouvrageprotection",
+      "name": "typeouvrageprotecteur",
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 255
+        "maxLength": 2
       }
+    },
+    {
+      "name": "roleprotection",
+      "description": "",
+      "type": "Boolean"
+    },
+    {
+      "name": "occurrence",
+      "description": "",
+      "type": "String"
     },
     {
       "name": "WKT",
       "title": "Géométrie",
-      "description": "Geométrie associée",
-      "type": "Point",
+      "description": "Géométrie associée",
+      "type": "MultiPoint",
       "constraints": {
         "required": true
       }
