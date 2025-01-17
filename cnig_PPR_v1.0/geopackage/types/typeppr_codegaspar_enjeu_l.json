@@ -1,0 +1,68 @@
+{
+  "name": "typeppr_codegaspar_enjeu_l",
+  "description": "",
+  "columns": [
+    {
+      "name": "idenjeu",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "unique": true,
+        "maxLength": 8
+      }
+    },
+    {
+      "name": "idrefexterne",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 20
+      }
+    },
+    {
+      "name": "refexterne",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 50
+      }
+    },
+    {
+      "name": "codeprocedure",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 16
+      }
+    },
+    {
+      "name": "nomenjeu",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 255
+      }
+    },
+    {
+      "name": "dateenjeu",
+      "description": "",
+      "type": "Date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "WKT",
+      "title": "Géométrie",
+      "description": "Geométrie associée",
+      "type": "LineString",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}

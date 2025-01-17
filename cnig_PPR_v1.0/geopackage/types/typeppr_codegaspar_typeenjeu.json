@@ -1,0 +1,48 @@
+{
+  "name": "typeppr_codegaspar_typeenjeu",
+  "description": "",
+  "columns": [
+    {
+      "name": "idenjeu_s",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 8
+      }
+    },
+    {
+      "name": "idenjeu_l",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 8
+      }
+    },
+    {
+      "name": "idenjeu_p",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 8
+      }
+    },
+    {
+      "name": "codeenjeu",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 50
+      }
+    },
+    {
+      "name": "nomenclatureenjeu",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 255
+      }
+    }
+  ]
+}

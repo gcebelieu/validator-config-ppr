@@ -1,0 +1,45 @@
+{
+  "name": "gpkg_geometry_columns",
+  "description": "",
+  "columns": [
+    {
+      "name": "table_name",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "column_name",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "geometry_type_name",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "srs_id",
+      "description": "",
+      "type": "Integer"
+    },
+    {
+      "name": "z",
+      "description": "",
+      "type": "Integer"
+    },
+    {
+      "name": "m",
+      "description": "",
+      "type": "Integer"
+    }
+  ]
+}
