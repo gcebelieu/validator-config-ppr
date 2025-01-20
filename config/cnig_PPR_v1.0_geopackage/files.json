@@ -260,5 +260,83 @@
         }
       ]
     }
+  ],
+  "codes": [
+
+    {
+        "name": "typealea",
+        "title": "typealea",
+        "data": "./codes/typealea.csv"
+    },
+    {
+        "name": "typeetatprocedure",
+        "title": "typeetatprocedure",
+        "data": "./codes/typeetatprocedure.csv"
+    },
+    {
+        "name": "typereference",
+        "title": "typereference",
+        "data": "./codes/typereference.csv"
+    },
+    {
+        "name": "typeclasseprobatechno",
+        "title": "typeclasseprobatechno",
+        "data": "./codes/typeclasseprobatechno.csv"
+    },
+    {
+        "name": "typeintensitetechno",
+        "title": "typeintensitetechno",
+        "data": "./codes/typeintensitetechno.csv"
+    },
+    {
+        "name": "typerefexterneouvrage",
+        "title": "typerefexterneouvrage",
+        "data": "./codes/typerefexterneouvrage.csv"
+    },
+    {
+        "name": "typeenjeucovadis",
+        "title": "typeenjeucovadis",
+        "data": "./codes/typeenjeucovadis.csv"
+    },
+    {
+        "name": "typeniveaualea",
+        "title": "typeniveaualea",
+        "data": "./codes/typeniveaualea.csv"
+    },
+    {
+        "name": "typereglementfoncier",
+        "title": "typereglementfoncier",
+        "data": "./codes/typereglementfoncier.csv"
+    },
+    {
+        "name": "typeenjeupprn",
+        "title": "typeenjeupprn",
+        "data": "./codes/typeenjeupprn.csv"
+    },
+    {
+        "name": "typeenjeupprt",
+        "title": "typeenjeupprt",
+        "data": "./codes/typeenjeupprt.csv"
+    },
+    {
+        "name": "typeouvrageprotecteur",
+        "title": "typeouvrageprotecteur",
+        "data": "./codes/typeouvrageprotecteur.csv"
+    },
+    {
+        "name": "typereglementurba",
+        "title": "typereglementurba",
+        "data": "./codes/typereglementurba.csv"
+    },
+    {
+        "name": "typeprocedure",
+        "title": "typeprocedure",
+        "data": "./codes/typeprocedure.csv"
+    },
+    {
+        "name": "typesuralea",
+        "title": "typesuralea",
+        "data": "./codes/typesuralea.csv"
+    }
   ]
 }
