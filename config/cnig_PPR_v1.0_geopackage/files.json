@@ -11,22 +11,32 @@
       "tables": [
         {
           "name": "gpkg_contents",
+          "mandatory": "ERROR",
           "tableModel": "./types/gpkg_contents.json"
         },
         {
+          "name": "gpkg_spatial_ref_sys",
+          "mandatory": "ERROR",
+          "tableModel": "./types/gpkg_spatial_ref_sys.json"
+        },
+        {
           "name": "gpkg_geometry_columns",
+          "mandatory": "ERROR",
           "tableModel": "./types/gpkg_geometry_columns.json"
         },
         {
           "name": "gpkg_metadata",
+          "mandatory": "ERROR",
           "tableModel": "./types/gpkg_metadata.json"
         },
         {
           "name": "gpkg_metadata_reference",
+          "mandatory": "ERROR",
           "tableModel": "./types/gpkg_metadata_reference.json"
         },
         {
           "name": "typeppr_codegaspar_procedure",
+          "mandatory": "ERROR",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_procedure",
           "tableModel": "./types/typeppr_codegaspar_procedure.json"
         },
@@ -37,6 +47,7 @@
         },
         {
           "name": "typeppr_codegaspar_perimetre_s",
+          "mandatory": "ERROR",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_perimetre_s",
           "tableModel": "./types/typeppr_codegaspar_perimetre_s.json"
         },
@@ -47,6 +58,7 @@
         },
         {
           "name": "typeppr_codegaspar_referenceinternet",
+          "mandatory": "ERROR",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_referenceinternet",
           "tableModel": "./types/typeppr_codegaspar_referenceinternet.json"
         },
@@ -227,6 +239,7 @@
         },
         {
           "name": "typeppr_codegaspar_zonereglementaireurba_s",
+          "mandatory": "WARN",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonereglementaireurba_s",
           "tableModel": "./types/typeppr_codegaspar_zonereglementaireurba_s.json"
         },
@@ -242,6 +255,7 @@
         },
         {
           "name": "typeppr_codegaspar_zonereglementairefoncier_s",
+          "mandatory": "WARN",
           "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonereglementairefoncier_s",
           "tableModel": "./types/typeppr_codegaspar_zonereglementairefoncier_s.json"
         },

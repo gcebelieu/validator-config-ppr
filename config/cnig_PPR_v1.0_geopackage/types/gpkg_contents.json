@@ -1,6 +1,6 @@
 {
   "name": "gpkg_contents",
-  "description": "",
+  "description": "Table dictionnaire GeoPackage",
   "columns": [
     {
       "name": "table_name",
@@ -59,7 +59,10 @@
     {
       "name": "srs_id",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "reference": "gpkg_spatial_ref_sys.srs_id"
+      }
     }
   ]
 }
