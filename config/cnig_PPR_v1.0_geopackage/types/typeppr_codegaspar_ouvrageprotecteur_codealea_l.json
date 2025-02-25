@@ -38,7 +38,19 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 2
+        "maxLength": 2,
+        "enum": [
+          "1",
+          "11",
+          "111",
+          "112",
+          "119",
+          "12",
+          "2",
+          "3",
+          "4",
+          "999"
+        ]
       }
     },
     {

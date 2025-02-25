@@ -16,7 +16,8 @@
         "description": "fk zonereglementaireurba_s",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementaireurba_s.idzonereglementaire"
         }
       },
       {
@@ -24,7 +25,8 @@
         "description": "fk zonereglementaireurba_l",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementaireurba_l.idzonereglementaire"
         }
       },
       {
@@ -32,7 +34,8 @@
         "description": "fk zonereglementaireurba_p",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementaireurba_p.idzonereglementaire"
         }
       },
       {
@@ -40,7 +43,8 @@
         "description": "fk zonereglementairefoncier_s",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementairefoncier_s.idzonereglementaire"
         }
       },
       {
@@ -48,7 +52,8 @@
         "description": "fk zonereglementairefoncier_l",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementairefoncier_l.idzonereglementaire"
         }
       },
       {
@@ -56,8 +61,9 @@
         "description": "fk zonereglementairefoncier_p",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonereglementairefoncier_p.idzonereglementaire"
         }
       }
     ]
-  }
+}

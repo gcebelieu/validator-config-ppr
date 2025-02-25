@@ -30,7 +30,18 @@
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 10
+        "maxLength": 10,
+        "enum": [
+          "DEB_PRG",
+          "DEB_MTG",
+          "PRESCRIT",
+          "PAC",
+          "PROROGE",
+          "ANTICIPE",
+          "APPROUVE",
+          "ANNULE",
+          "ABROGE"
+        ]
       }
     },
     {

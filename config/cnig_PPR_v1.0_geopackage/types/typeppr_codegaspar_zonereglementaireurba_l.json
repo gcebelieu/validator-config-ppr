@@ -46,7 +46,16 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 2
+          "maxLength": 2,
+          "enum": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07"
+          ]
         }
       },
       {

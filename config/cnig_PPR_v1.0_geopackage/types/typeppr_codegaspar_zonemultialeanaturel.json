@@ -8,7 +8,32 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 3
+          "maxLength": 3,
+          "enum": [
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "13",
+            "14",
+            "15",
+            "16",
+            "171",
+            "172",
+            "174",
+            "175",
+            "176",
+            "18"
+          ]
         }
       },
       {
@@ -17,7 +42,8 @@
         "type": "String",
         "constraints": {
           "required": true,
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonealeanaturelsynthese_s.idzonealea"
         }
       },      
       {
@@ -25,21 +51,24 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 2
+          "maxLength": 2,
+          "enum": [
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "99"
+          ]
         }
       },
       {
         "name": "occurrence",
         "description": "",
         "type": "Integer"
-      },
-      {
-        "name": "intensite",
-        "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 2
-        }
       }
     ]
   }

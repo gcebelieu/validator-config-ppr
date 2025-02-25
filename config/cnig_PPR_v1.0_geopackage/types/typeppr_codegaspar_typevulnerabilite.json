@@ -7,7 +7,8 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_s.idenjeu"
         }
       },
       {
@@ -15,7 +16,8 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_l.idenjeu"
         }
       },
       {
@@ -23,7 +25,8 @@
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 15
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_p.idenjeu"
         }
       },
       {
