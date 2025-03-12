@@ -8,9 +8,8 @@ Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IG
 
 Deux configurations sont proposées :
 
-1. une pour la validation de données [livrées au format GeoPackage](cnig_PPR_v1.0_geopackage) ;
-2. l'autre pour la validation de données [livrées au format Shapefile](nig_PPR_v1.0_shapefile).
-
+1. une pour la validation de données [livrées au format GeoPackage](./config/cnig_PPR_v1.0_geopackage) ;
+2. l'autre pour la validation de données [livrées au format Shapefile](./config/cnig_PPR_v1.0_shapefile).
 
 ## Mises en garde
 
