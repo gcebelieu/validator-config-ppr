@@ -4,7 +4,13 @@
 
 ## Description
 
-Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation du [Géostandards Risques](https://github.com/cnigfr/Geostandards-Risques/blob/relecture-v0.1/standards/Geostandards-risques-commun/Document.md)
+Dépôt de gestion de la configuration de [IGNF/validator](https://github.com/IGNF/validator) pour la validation du Standard CNIG [Géostandards Risques PPR](https://cnig.gouv.fr/IMG/pdf/geostandards-risques-ppr-v1_0.pdf).
+
+Deux configurations sont proposées :
+
+1. une pour la validation de données [livrées au format GeoPackage](cnig_PPR_v1.0_geopackage) ;
+2. l'autre pour la validation de données [livrées au format Shapefile](nig_PPR_v1.0_shapefile).
+
 
 ## Mises en garde
 
