@@ -12,14 +12,14 @@
         }
       },
       {
-        "name": "codeprocedure",
+        "name": "idproc",
         "description": "fk table procedure",
         "type": "String",
         "constraints": {
           "required": true,
           "maxLength": 18,
           "constraints": {
-            "reference": "typeppr_codegaspar_procedure.codeprocedure"
+            "reference": "typeppr_codegaspar_procedure.idproc"
           }
         }
       },
@@ -77,7 +77,7 @@
         }
       },
       {
-        "name": "description",
+        "name": "desc",
         "description": "",
         "type": "String"
       },

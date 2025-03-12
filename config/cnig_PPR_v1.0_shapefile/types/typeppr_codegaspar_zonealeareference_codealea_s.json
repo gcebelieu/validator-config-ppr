@@ -1,10 +1,10 @@
 {
-    "name": "typeppr_codegaspar_zonealeatechnosynthese_s",
+    "name": "typeppr_codegaspar_zonealeareference_codealea_s",
     "description": "",
     "columns": [
       {
         "name": "idzonealea",
-        "description": "pk",
+        "description": "",
         "type": "String",
         "constraints": {
           "required": true,
@@ -12,14 +12,14 @@
         }
       },
       {
-        "name": "codeprocedure",
+        "name": "idproc",
         "description": "fk table procedure",
         "type": "String",
         "constraints": {
           "required": true,
           "maxLength": 18,
           "constraints": {
-            "reference": "typeppr_codegaspar_procedure.codeprocedure"
+            "reference": "typeppr_codegaspar_procedure.idproc"
           }
         }
       },
@@ -31,14 +31,29 @@
           "required": true,
           "maxLength": 3,
           "enum": [
-            "211",
-            "212",
-            "213",
-            "214",
-            "22",
-            "23",
-            "24",
-            "25",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "13",
+            "14",
+            "15",
+            "16",
+            "171",
+            "172",
+            "174",
+            "175",
+            "176",
+            "18",
             "999"
           ]
         }
@@ -48,6 +63,7 @@
         "description": "",
         "type": "String",
         "constraints": {
+          "required": true,
           "maxLength": 2,
           "enum": [
             "00",
@@ -57,49 +73,25 @@
             "04",
             "05",
             "06",
-            "07"
+            "07",
+            "99"
           ]
         }
       },
       {
         "name": "occurrence",
         "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 1,
-          "enum":[
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
-          ]
-        }
+        "type": "Integer"
       },
       {
-        "name": "description",
+        "name": "desc",
         "description": "",
         "type": "String"
       },
       {
-        "name": "intensite",
-        "description": "",
-        "type": "String",
-        "constraints": {
-          "maxLength": 2,
-          "enum":[
-            "Z1",
-            "Z2",
-            "Z3",
-            "Z4",
-            "Z5"
-          ]
-        }
-      },
-      {
         "name": "WKT",
         "title": "Géométrie",
-        "description": "Géométrie associée",
+        "description": "Geométrie associée",
         "type": "Polygon",
         "constraints": {
           "required": true

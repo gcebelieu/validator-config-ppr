@@ -1,39 +1,8 @@
 {
-  "name": "cnig_PPR_v1.0 GeoPackage",
-  "title": "Geostandard Risques PPR v1.0 Format GeoPackage",
-  "description": "Validation du Standard CNIG PPR v1.0 livraison au format GeoPackage : https://cnig.gouv.fr/IMG/pdf/geostandards-risques-ppr-v1_0.pdf",
+  "name": "cnig_PPR_v1.0_shapefile",
+  "title": "Geostandard Risques PPR v1.0 format Shapefile",
+  "description": "Validation du Standard CNIG PPR v1.0 pour les livraisons au format Shapefile : https://cnig.gouv.fr/IMG/pdf/geostandards-risques-ppr-v1_0.pdf",
   "files": [
-    {
-      "name": "GEOPACKAGE",
-      "type": "multi_table",
-      "path": "[^\\/]*",
-      "mandatory": "ERROR",
-      "tables": [
-        {
-          "name": "gpkg_contents",
-          "mandatory": "ERROR",
-          "tableModel": "./types/gpkg_contents.json"
-        },
-        {
-          "name": "gpkg_spatial_ref_sys",
-          "mandatory": "ERROR",
-          "tableModel": "./types/gpkg_spatial_ref_sys.json"
-        },
-        {
-          "name": "gpkg_geometry_columns",
-          "mandatory": "ERROR",
-          "tableModel": "./types/gpkg_geometry_columns.json"
-        },
-        {
-          "name": "gpkg_metadata",
-          "mandatory": "ERROR",
-          "tableModel": "./types/gpkg_metadata.json"
-        },
-        {
-          "name": "gpkg_metadata_reference",
-          "mandatory": "ERROR",
-          "tableModel": "./types/gpkg_metadata_reference.json"
-        },
         {
           "name": "typeppr_codegaspar_procedure",
           "mandatory": "ERROR",
@@ -272,8 +241,6 @@
           "name": "typereglementfoncier",
           "tableModel": "./types/typereglementfoncier.json"
         }
-      ]
-    }
   ],
   "codes": [
 

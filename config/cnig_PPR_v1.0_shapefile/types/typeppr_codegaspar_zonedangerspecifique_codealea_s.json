@@ -1,9 +1,9 @@
 {
-    "name": "typeppr_codegaspar_zonealeatechnosynthese_s",
+    "name": "typeppr_codegaspar_zonedangerspecifique_codealea_s",
     "description": "",
     "columns": [
       {
-        "name": "idzonealea",
+        "name": "idzonedang",
         "description": "pk",
         "type": "String",
         "constraints": {
@@ -12,14 +12,14 @@
         }
       },
       {
-        "name": "codeprocedure",
-        "description": "fk table procedure",
+        "name": "idproc",
+        "description": "fk procedure",
         "type": "String",
         "constraints": {
           "required": true,
           "maxLength": 18,
           "constraints": {
-            "reference": "typeppr_codegaspar_procedure.codeprocedure"
+            "reference": "typeppr_codegaspar_procedure.idproc"
           }
         }
       },
@@ -31,14 +31,12 @@
           "required": true,
           "maxLength": 3,
           "enum": [
-            "211",
-            "212",
-            "213",
-            "214",
-            "22",
-            "23",
-            "24",
-            "25",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
             "999"
           ]
         }
@@ -48,52 +46,67 @@
         "description": "",
         "type": "String",
         "constraints": {
+          "required": true,
           "maxLength": 2,
           "enum": [
             "00",
             "01",
             "02",
-            "03",
             "04",
-            "05",
             "06",
-            "07"
+            "07",
+            "99"
           ]
         }
       },
       {
-        "name": "occurrence",
+        "name": "typesurale",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 1,
-          "enum":[
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
+          "required": true,
+          "maxLength": 2,
+          "enum": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "99"
           ]
         }
       },
       {
-        "name": "description",
+        "name": "desc",
         "description": "",
         "type": "String"
       },
       {
-        "name": "intensite",
+        "name": "idouvprots",
         "description": "",
         "type": "String",
         "constraints": {
-          "maxLength": 2,
-          "enum":[
-            "Z1",
-            "Z2",
-            "Z3",
-            "Z4",
-            "Z5"
-          ]
+          "maxLength": 50,
+          "reference": "typeppr_codegaspar_ouvrageprotecteur_codealea_s.idouvprot"
+
+        }
+      },
+      {
+        "name": "idouvprotl",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 50,
+          "reference": "typeppr_codegaspar_ouvrageprotecteur_codealea_l.idouvprot"
+
+        }
+      },
+      {
+        "name": "idouvprotp",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 50,
+          "reference": "typeppr_codegaspar_ouvrageprotecteur_codealea_p.idouvprot"
         }
       },
       {

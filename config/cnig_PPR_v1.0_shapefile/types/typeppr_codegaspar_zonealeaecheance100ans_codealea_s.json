@@ -1,25 +1,25 @@
 {
-  "name": "typeppr_codegaspar_zonealeatechnolent_codealea_s",
+  "name": "typeppr_codegaspar_zonealeaecheance100ans_codealea_s",
   "description": "",
   "columns": [
     {
       "name": "idzonealea",
-      "description": "pk",
+      "description": "",
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 8
+        "maxLength": 15
       }
     },
     {
-      "name": "codeprocedure",
+      "name": "idproc",
       "description": "fk table procedure",
       "type": "String",
       "constraints": {
         "required": true,
         "maxLength": 18,
         "constraints": {
-          "reference": "typeppr_codegaspar_procedure.codeprocedure"
+          "reference": "typeppr_codegaspar_procedure.idproc"
         }
       }
     },
@@ -31,16 +31,9 @@
         "required": true,
         "maxLength": 3,
         "enum": [
-          "211",
-          "212",
-          "213",
-          "214",
-          "22",
-          "23",
-          "24",
-          "25",
-          "999"
-        ]
+            "117",
+            "999"
+          ]
       }
     },
     {
@@ -54,51 +47,23 @@
           "00",
           "01",
           "02",
-          "03",
           "04",
-          "05",
           "06",
-          "07"
+          "07",
+          "99"
         ]
       }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "String",
-      "constraints": {
-        "maxLength": 1,
-        "enum":[
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ]
-      }
+      "type": "Integer"
     },
     {
-      "name": "intensite",
-      "description": "",
-      "type": "String",
-      "constraints": {
-        "required": true,
-        "maxLength": 2,
-        "enum":[
-          "Z1",
-          "Z2",
-          "Z3",
-          "Z4",
-          "Z5"
-        ]
-      }
-    },
-    {
-      "name": "description",
+      "name": "desc",
       "description": "",
       "type": "String"
     },
-
     {
       "name": "WKT",
       "title": "Géométrie",

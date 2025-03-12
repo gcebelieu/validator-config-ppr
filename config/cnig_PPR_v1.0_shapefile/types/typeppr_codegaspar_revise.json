@@ -1,0 +1,30 @@
+{
+  "name": "typeppr_codegaspar_revise",
+  "description": "",
+  "columns": [
+    {
+      "name": "idprocrva",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 18,
+        "constraints": {
+          "reference": "typeppr_codegaspar_procedure.idproc"
+        }
+      }
+    },
+    {
+      "name": "idprocrve",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 18,
+        "constraints": {
+          "reference": "typeppr_codegaspar_procedure.idproc"
+        }
+      }
+    }
+  ]
+}

@@ -1,31 +1,10 @@
 {
-    "name": "typeppr_codegaspar_zonealeatechnosynthese_s",
+    "name": "typeppr_codegaspar_zonemultialeatechno",
     "description": "",
     "columns": [
       {
-        "name": "idzonealea",
-        "description": "pk",
-        "type": "String",
-        "constraints": {
-          "required": true,
-          "maxLength": 15
-        }
-      },
-      {
-        "name": "codeprocedure",
-        "description": "fk table procedure",
-        "type": "String",
-        "constraints": {
-          "required": true,
-          "maxLength": 18,
-          "constraints": {
-            "reference": "typeppr_codegaspar_procedure.codeprocedure"
-          }
-        }
-      },
-      {
         "name": "typealea",
-        "description": "",
+        "description": "pk 1/2",
         "type": "String",
         "constraints": {
           "required": true,
@@ -43,6 +22,16 @@
           ]
         }
       },
+      {
+        "name": "idzonealea",
+        "description": "pk 2/2",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_zonealeatechnosynthese_s.idzonealea"
+        }
+      },      
       {
         "name": "niveaualea",
         "description": "",
@@ -77,11 +66,6 @@
         }
       },
       {
-        "name": "description",
-        "description": "",
-        "type": "String"
-      },
-      {
         "name": "intensite",
         "description": "",
         "type": "String",
@@ -94,15 +78,6 @@
             "Z4",
             "Z5"
           ]
-        }
-      },
-      {
-        "name": "WKT",
-        "title": "Géométrie",
-        "description": "Géométrie associée",
-        "type": "Polygon",
-        "constraints": {
-          "required": true
         }
       }
     ]

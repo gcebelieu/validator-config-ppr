@@ -1,5 +1,5 @@
 {
-  "name": "typeppr_codegaspar_zonealeatechnolent_codealea_s",
+  "name": "typeppr_codegaspar_zonealeatechnoprojection_codealea_s",
   "description": "",
   "columns": [
     {
@@ -8,18 +8,18 @@
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 8
+        "maxLength": 15
       }
     },
     {
-      "name": "codeprocedure",
+      "name": "idproc",
       "description": "fk table procedure",
       "type": "String",
       "constraints": {
         "required": true,
         "maxLength": 18,
         "constraints": {
-          "reference": "typeppr_codegaspar_procedure.codeprocedure"
+          "reference": "typeppr_codegaspar_procedure.idproc"
         }
       }
     },
@@ -48,7 +48,6 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
         "maxLength": 2,
         "enum": [
           "00",
@@ -78,6 +77,11 @@
       }
     },
     {
+      "name": "desc",
+      "description": "",
+      "type": "String"
+    },
+    {
       "name": "intensite",
       "description": "",
       "type": "String",
@@ -92,17 +96,10 @@
           "Z5"
         ]
       }
-    },
-    {
-      "name": "description",
-      "description": "",
-      "type": "String"
-    },
-
-    {
+    },    {
       "name": "WKT",
       "title": "Géométrie",
-      "description": "Géométrie associée",
+      "description": "Geométrie associée",
       "type": "Polygon",
       "constraints": {
         "required": true

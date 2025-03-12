@@ -1,0 +1,54 @@
+{
+    "name": "typeppr_codegaspar_referenceinternet",
+    "description": "",
+    "columns": [
+      {
+        "name": "adresse",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "idproc",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 18,
+          "constraints": {
+            "reference": "typeppr_codegaspar_procedure.idproc"
+          }
+        }
+      },
+      {
+        "name": "nomres",
+        "description": "",
+        "type": "String"
+      },
+      {
+        "name": "typeref",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 2,
+          "enum": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "99"
+          ]
+        }
+      },
+      {
+        "name": "desc",
+        "description": "",
+        "type": "String"
+      }
+    ]
+  }
