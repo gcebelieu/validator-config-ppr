@@ -1,0 +1,54 @@
+{
+    "name": "typeppr_codegaspar_typevulnerabilite",
+    "description": "",
+    "columns": [
+      {
+        "name": "idenjeu_s",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_s.idenjeu"
+        }
+      },
+      {
+        "name": "idenjeu_l",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_l.idenjeu"
+        }
+      },
+      {
+        "name": "idenjeu_p",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "typeppr_codegaspar_enjeu_p.idenjeu"
+        }
+      },
+      {
+        "name": "nom",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "desc",
+        "description": "",
+        "type": "String"
+      },
+      {
+        "name": "valeur",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true
+        }
+      }
+    ]
+  }

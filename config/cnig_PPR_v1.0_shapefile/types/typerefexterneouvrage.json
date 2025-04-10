@@ -1,0 +1,24 @@
+{
+  "name": "typerefexterneouvrage",
+  "description": "",
+  "columns": [
+    {
+      "name": "code",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 2
+      }
+    },
+    {
+      "name": "libelle",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 50
+      }
+    }
+  ]
+}

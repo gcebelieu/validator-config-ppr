@@ -1,0 +1,81 @@
+{
+  "name": "typeppr_codegaspar_ouvrageprotecteur_codealea_p",
+  "description": "",
+  "columns": [
+    {
+      "name": "idouvprot",
+      "description": "pk",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 15
+      }
+    },
+    {
+      "name": "idrefext",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 50,
+        "enum": [
+          "01",
+          "02",
+          "99"
+        ]
+      }
+    },
+    {
+      "name": "refexterne",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 2
+      }
+    },
+    {
+      "name": "refextaut",
+      "description": "",
+      "type": "String"
+    },
+    {
+      "name": "typeouvpro",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 2,
+        "enum": [
+          "1",
+          "11",
+          "111",
+          "112",
+          "119",
+          "12",
+          "2",
+          "3",
+          "4",
+          "999"
+        ]
+      }
+    },
+    {
+      "name": "roleprotec",
+      "description": "",
+      "type": "Boolean"
+    },
+    {
+      "name": "occurrence",
+      "description": "",
+      "type": "String"
+    },
+    {
+      "name": "WKT",
+      "title": "Géométrie",
+      "description": "Géométrie associée",
+      "type": "MultiPoint",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}

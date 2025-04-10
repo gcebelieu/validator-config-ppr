@@ -1,0 +1,30 @@
+{
+  "name": "typeppr_codegaspar_revise",
+  "description": "",
+  "columns": [
+    {
+      "name": "codeprocrevisante",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 18,
+        "constraints": {
+          "reference": "typeppr_codegaspar_procedure.codeprocedure"
+        }
+      }
+    },
+    {
+      "name": "codeprocrevisee",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 18,
+        "constraints": {
+          "reference": "typeppr_codegaspar_procedure.codeprocedure"
+        }
+      }
+    }
+  ]
+}

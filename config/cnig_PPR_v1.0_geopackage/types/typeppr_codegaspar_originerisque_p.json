@@ -1,0 +1,57 @@
+{
+    "name": "typeppr_codegaspar_originerisque_p",
+    "description": "",
+    "columns": [
+        {
+            "name": "idoriginerisque",
+            "description": "pk",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "maxLength": 15
+            }
+        },
+        {
+            "name": "codeprocedure",
+            "description": "fk procedure",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "maxLength": 18,
+                "constraints": {
+                  "reference": "typeppr_codegaspar_procedure.codeprocedure"
+                }
+            }
+        },
+        {
+            "name": "idrefexterne",
+            "description": "",
+            "type": "String",
+            "constraints": {
+                "maxLength": 50
+            }
+        },
+        {
+            "name": "refexterne",
+            "description": "",
+            "type": "String"
+        },
+        {
+            "name": "nom",
+            "description": "",
+            "type": "String",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "WKT",
+            "title": "Géométrie",
+            "description": "Géométrie associée",
+            "type": "MultiPoint",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}
