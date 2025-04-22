@@ -1,0 +1,32 @@
+{
+    "name": "typeppr_codegaspar_procedure",
+    "description": "",
+    "columns": [
+      {
+        "name": "codeprocedure",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 16
+        }
+      },
+      {
+        "name": "libelleprocedure",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "typeprocedure",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 10
+        }
+      }
+    ]
+  }

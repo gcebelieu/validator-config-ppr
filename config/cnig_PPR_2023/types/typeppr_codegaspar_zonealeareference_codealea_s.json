@@ -1,0 +1,67 @@
+{
+    "name": "typeppr_codegaspar_zonealeareference_codealea_s",
+    "description": "",
+    "columns": [
+      {
+        "name": "idzonealea",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 8
+        }
+      },
+      {
+        "name": "codeprocedure",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 16
+        }
+      },
+      {
+        "name": "typealea",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 3
+        }
+      },
+      {
+        "name": "niveaualea",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "required": true,
+          "maxLength": 2
+        }
+      },
+      {
+        "name": "occurence",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15
+        }
+      },
+      {
+        "name": "description",
+        "description": "",
+        "type": "String",
+        "constraints": {
+          "maxLength": 255
+        }
+      },
+      {
+        "name": "WKT",
+        "title": "Géométrie",
+        "description": "Geométrie associée",
+        "type": "MultiPolygon",
+        "constraints": {
+          "required": true
+        }
+      }
+    ]
+  }
