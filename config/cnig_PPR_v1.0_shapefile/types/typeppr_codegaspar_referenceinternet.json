@@ -46,7 +46,7 @@
         }
       },
       {
-        "name": "desc",
+        "name": "descript",
         "description": "",
         "type": "String"
       }
