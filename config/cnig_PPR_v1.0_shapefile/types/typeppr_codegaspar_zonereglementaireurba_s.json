@@ -20,7 +20,7 @@
         "required": true,
         "maxLength": 18,
         "constraints": {
-          "reference": "typeppr_codegaspar_procedure.codeprocedure"
+          "reference": "typeppr_codegaspar_procedure.idproc"
         }
       }
     },
