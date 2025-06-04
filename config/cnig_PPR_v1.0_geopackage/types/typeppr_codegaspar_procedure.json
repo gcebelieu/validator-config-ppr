@@ -14,7 +14,7 @@
         "constraints": {
           "required": true,
           "maxLength": 18,
-          "pattern": "[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}"
+          "pattern": "[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}"
         }
       },
       {
