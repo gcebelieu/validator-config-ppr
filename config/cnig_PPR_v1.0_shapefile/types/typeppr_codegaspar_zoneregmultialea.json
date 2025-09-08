@@ -3,7 +3,7 @@
     "description": "",
     "columns": [
       {
-        "name": "idzoneregmultialea",
+        "name": "idzoneregm",
         "description": "Identifiant unique",
         "type": "Integer",
         "constraints": {
