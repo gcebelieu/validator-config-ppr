@@ -61,7 +61,10 @@
       {
         "name": "existoblig",
         "description": "",
-        "type": "Boolean"
+        "type": "Boolean",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "WKT",

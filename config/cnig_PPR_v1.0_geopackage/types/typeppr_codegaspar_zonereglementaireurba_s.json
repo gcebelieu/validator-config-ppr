@@ -61,7 +61,10 @@
     {
       "name": "existemesuresobligatoires",
       "description": "",
-      "type": "Boolean"
+      "type": "Boolean",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",
