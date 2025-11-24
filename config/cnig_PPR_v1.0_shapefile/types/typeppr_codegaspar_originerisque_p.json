@@ -17,7 +17,7 @@
             "type": "String",
             "constraints": {
                 "required": true,
-                "maxLength": 18,
+                "maxLength": 22,
                 "constraints": {
                   "reference": "typeppr_codegaspar_procedure.idproc"
                 }
