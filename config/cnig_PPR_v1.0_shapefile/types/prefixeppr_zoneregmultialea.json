@@ -1,0 +1,69 @@
+{
+    "name": "prefixeppr_zoneregmultialea",
+    "description": "",
+    "columns": [
+      {
+        "name": "idzoneregm",
+        "description": "Identifiant unique",
+        "type": "Integer",
+        "constraints": {
+          "required": true,
+          "unique": true
+        }
+      },
+      {
+        "name": "idzonregus",
+        "description": "fk zonereglementaireurba_s",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementaireurba_s.idzonereg"
+        }
+      },
+      {
+        "name": "idzonregul",
+        "description": "fk zonereglementaireurba_l",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementaireurba_l.idzonereg"
+        }
+      },
+      {
+        "name": "idzonregup",
+        "description": "fk zonereglementaireurba_p",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementaireurba_p.idzonereg"
+        }
+      },
+      {
+        "name": "idzonregfs",
+        "description": "fk zonereglementairefoncier_s",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementairefoncier_s.idzonereg"
+        }
+      },
+      {
+        "name": "idzonregfl",
+        "description": "fk zonereglementairefoncier_l",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementairefoncier_l.idzonereg"
+        }
+      },
+      {
+        "name": "idzonregfp",
+        "description": "fk zonereglementairefoncier_p",
+        "type": "String",
+        "constraints": {
+          "maxLength": 15,
+          "reference": "prefixeppr_zonereglementairefoncier_p.idzonereg"
+        }
+      }
+    ]
+}
