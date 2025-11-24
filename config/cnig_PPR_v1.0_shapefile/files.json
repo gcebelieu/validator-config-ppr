@@ -68,19 +68,19 @@
         },
         {
           "name": "typeppr_codegaspar_zonealeatechnorapide_codealea_s",
-          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnorapide_21{1,2}_s",
+          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnorapide_21[1-4]_s",
           "type": "table",
           "tableModel": "./types/typeppr_codegaspar_zonealeatechnorapide_codealea_s.json"
         },
         {
           "name": "typeppr_codegaspar_zonealeatechnolent_codealea_s",
-          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnolent_21{1,2}_s",
+          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnolent_21[1-4]_s",
           "type": "table",
           "tableModel": "./types/typeppr_codegaspar_zonealeatechnolent_codealea_s.json"
         },
         {
           "name": "typeppr_codegaspar_zonealeatechnoprojection_codealea_s",
-          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnoprojection_21{1,2}_s",
+          "path": "ppr[a-zA-Z]_[0-9]{2,3}(PREF|DDT|DDTM|DREAL|DRIEAT)[0-9]{4}[0-9]{4}_zonealeatechnoprojection_21[1-4]_s",
           "type": "table",
           "tableModel": "./types/typeppr_codegaspar_zonealeatechnoprojection_codealea_s.json"
         },
