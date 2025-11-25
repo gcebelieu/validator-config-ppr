@@ -1,0 +1,30 @@
+{
+  "name": "prefixeppr_revise",
+  "description": "",
+  "columns": [
+    {
+      "name": "idprocrva",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 22,
+        "constraints": {
+          "reference": "prefixeppr_procedure.idproc"
+        }
+      }
+    },
+    {
+      "name": "idprocrve",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 22,
+        "constraints": {
+          "reference": "prefixeppr_procedure.idproc"
+        }
+      }
+    }
+  ]
+}
